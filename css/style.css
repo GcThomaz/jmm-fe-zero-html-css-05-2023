@@ -21,10 +21,38 @@ div {
 
 #divA {
     background-image: url('../img/back_mantel.jpg');
+    
 }
 
 #divB {
+    width: 164px;
+    height: 164px;
+    background-image: url('../img/back_mantel.jpg');
+    padding: 20px;
+    background-clip: content-box;
+}
+
+#divC {
     background-image: url('../img/back_mantel.jpg');
     background-size: cover;
-    /* background-repeat: repeat; */
+}
+
+#divD {
+    background-color: aliceblue;
+    background-image: url('../img/back_mantel.jpg');
+    background-size: cover;
+    width: 164px;
+    height: 164px;
+    padding: 20px;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+}
+
+#divI {
+    background: linear-gradient(to right, yellow 0%, grey 100%);
+}
+
+#divL {
+    background: linear-gradient(to top, green 0%, grey 100%);
+    opacity: 50%;
 }
