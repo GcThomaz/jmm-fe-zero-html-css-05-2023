@@ -1,0 +1,30 @@
+body {
+    /* background-color: aqua; */
+    background-image: url('../img/ac.jpg');
+    /* background-repeat:repeat;
+    background-size: cover; */
+    color: red;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: red solid 3px;
+    float: left;
+    background-color: aliceblue;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    /* padding-top: 5px;
+    padding-left: 50px; */
+    text-align: center;
+}
+
+#divA {
+    background-image: url('../img/back_mantel.jpg');
+}
+
+#divB {
+    background-image: url('../img/back_mantel.jpg');
+    background-size: cover;
+    /* background-repeat: repeat; */
+}
